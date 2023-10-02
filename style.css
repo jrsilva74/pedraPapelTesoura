@@ -1,0 +1,106 @@
+body {
+    align-items: center;
+    justify-content: center;
+    min-width: 1000px;
+    background-image: url("imagens/fundo.jpg");
+}
+
+#main {
+    margin: 1px auto;
+    width: 70%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    margin: 10px 0px;
+}
+
+.infoVoce {
+    width: 43.2%;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    background-color: #58bde4;
+}
+
+.infoCPU {
+    width: 43.2%;
+    padding: 5px 20px;
+    float: right;
+    text-align: center;
+    background-color: #e74a46;
+}
+
+.nome {
+    width: 100%;  
+}
+
+.vcScore {
+    width: 43%;
+    padding: 5px 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+.cpuScore {
+    width: 43%;
+    padding: 5px 20px;
+    border: 1px solid black;
+    float: right;
+}
+
+#vitoriasVc, #vitoriasCpu {
+    width: 20%;
+    color: green;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#derrotasVc, #derrotasCpu {
+    width: 20%;
+    color: red;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#painelVoce {
+    width: 43%;
+    height: 200px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+#painelCPU {
+    width: 43%;
+    height: 200px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    float: right;
+}
+
+#resultado {
+    width: 100%;
+    height: auto;
+    border-width: 1px 0px;
+    border-color: black;
+    border-style:solid;
+    padding: 5px 0px;
+    display: inline-block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+#pedra, #papel, #tesoura {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%; 
+    margin: 10px 0px; 
+}

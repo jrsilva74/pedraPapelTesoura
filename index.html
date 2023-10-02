@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="imagens/favicon.ico">
+    <title>Game - Pedra - Papel - Tesoura</title>
+</head>
+<body>
+
+    <div id="main">
+        <div class="nome"><h1>Jogo - Pedra . Papel . Tesoura</h1></div>
+
+        <div class="infoVoce">VOCÊ</div><div class="infoCPU">CPU</div>
+
+        <div class="vcScore">
+           <span id="vitoriasVc">Vitórias: 0</span><br>
+           <span id="derrotasVc">Derrotas: 0</span>
+        </div>
+        
+        <div class="cpuScore">
+            <span id="vitoriasCpu">Vitórias: 0</span><br>
+            <span id="derrotasCpu">Derrotas: 0</span>
+        </div>
+
+        <center>
+            <div id="painelVoce"></div><div id="painelCPU"></div>
+        </center>
+        <div id="resultado">VEJA AQUI O RESULTADO</div>
+            <center>
+            <div id="pedra"><a href="#" onclick="escolher(1)"><img src="imagens/pedra.png" alt="pedra"></a></div>
+            <div id="papel"><a href="#" onclick="escolher(2)"><img src="imagens/papel.png" alt="papel"></a></div>
+            <div id="tesoura"><a href="#" onclick="escolher(3)"><img src="imagens/tesoura.png" alt="tesoura"></div></center></a></div>
+            </center>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
